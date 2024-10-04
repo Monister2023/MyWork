@@ -5,7 +5,7 @@ while index<len(my_list):
     if vvod not in my_list:
         print('Вы ввели число не из списка!')
         continue
-    elif vvod in my_list and vvod>=1:
+    elif vvod in my_list:
         print('Число положительное!')
         index += 1
         continue
