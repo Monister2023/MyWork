@@ -1,5 +1,7 @@
 def get_matrix (n,m,value):
     matrix = []
+    if n<=0:
+        return matrix
     for i in range(n):
         matrix.append([value]*m)
     for j in range(m):
